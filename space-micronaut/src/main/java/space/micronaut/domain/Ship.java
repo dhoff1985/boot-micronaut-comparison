@@ -1,5 +1,8 @@
 package space.micronaut.domain;
 
+import io.micronaut.core.annotation.Introspected;
+
+@Introspected
 public class Ship {
   private String name;
   private String captain;

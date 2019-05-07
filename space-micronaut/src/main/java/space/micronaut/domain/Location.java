@@ -1,5 +1,8 @@
 package space.micronaut.domain;
 
+import io.micronaut.core.annotation.Introspected;
+
+@Introspected
 public class Location {
   private int x;
   private int y;
